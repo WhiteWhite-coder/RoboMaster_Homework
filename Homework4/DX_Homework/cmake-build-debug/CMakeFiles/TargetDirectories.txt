@@ -1,0 +1,6 @@
+G:/Clion/DX_Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Clion/DX_Homework/cmake-build-debug/CMakeFiles/DX_Homework.dir
+G:/Clion/DX_Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+G:/Clion/DX_Homework/cmake-build-debug/Homework4/CMakeFiles/rebuild_cache.dir
+G:/Clion/DX_Homework/cmake-build-debug/Homework4/CMakeFiles/Homework4.dir
+G:/Clion/DX_Homework/cmake-build-debug/Homework4/CMakeFiles/edit_cache.dir
