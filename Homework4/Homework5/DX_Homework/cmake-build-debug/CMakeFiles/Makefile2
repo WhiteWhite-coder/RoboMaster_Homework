@@ -74,17 +74,20 @@ CMAKE_BINARY_DIR = G:\Clion\DX_Homework\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/DX_Homework.dir/all
 all: Homework4/all
+all: Homework5/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Homework4/preinstall
+preinstall: Homework5/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/DX_Homework.dir/clean
 clean: Homework4/clean
+clean: Homework5/clean
 
 .PHONY : clean
 
@@ -105,6 +108,24 @@ Homework4/preinstall:
 Homework4/clean: Homework4/CMakeFiles/Homework4.dir/clean
 
 .PHONY : Homework4/clean
+
+#=============================================================================
+# Directory level rules for directory Homework5
+
+# Recursive "all" directory target.
+Homework5/all: Homework5/CMakeFiles/Homework5.dir/all
+
+.PHONY : Homework5/all
+
+# Recursive "preinstall" directory target.
+Homework5/preinstall:
+
+.PHONY : Homework5/preinstall
+
+# Recursive "clean" directory target.
+Homework5/clean: Homework5/CMakeFiles/Homework5.dir/clean
+
+.PHONY : Homework5/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/DX_Homework.dir
@@ -159,6 +180,33 @@ Homework4: Homework4/CMakeFiles/Homework4.dir/rule
 Homework4/CMakeFiles/Homework4.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Homework4\CMakeFiles\Homework4.dir\build.make Homework4/CMakeFiles/Homework4.dir/clean
 .PHONY : Homework4/CMakeFiles/Homework4.dir/clean
+
+#=============================================================================
+# Target rules for target Homework5/CMakeFiles/Homework5.dir
+
+# All Build rule for target.
+Homework5/CMakeFiles/Homework5.dir/all:
+	$(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/depend
+	$(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Clion\DX_Homework\cmake-build-debug\CMakeFiles --progress-num=6,7,8,9 "Built target Homework5"
+.PHONY : Homework5/CMakeFiles/Homework5.dir/all
+
+# Build rule for subdir invocation for target.
+Homework5/CMakeFiles/Homework5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Clion\DX_Homework\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework5/CMakeFiles/Homework5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Clion\DX_Homework\cmake-build-debug\CMakeFiles 0
+.PHONY : Homework5/CMakeFiles/Homework5.dir/rule
+
+# Convenience name for target.
+Homework5: Homework5/CMakeFiles/Homework5.dir/rule
+
+.PHONY : Homework5
+
+# clean rule for target.
+Homework5/CMakeFiles/Homework5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/clean
+.PHONY : Homework5/CMakeFiles/Homework5.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

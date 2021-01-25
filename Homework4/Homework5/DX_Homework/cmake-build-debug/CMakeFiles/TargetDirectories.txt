@@ -4,3 +4,6 @@ G:/Clion/DX_Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 G:/Clion/DX_Homework/cmake-build-debug/Homework4/CMakeFiles/rebuild_cache.dir
 G:/Clion/DX_Homework/cmake-build-debug/Homework4/CMakeFiles/Homework4.dir
 G:/Clion/DX_Homework/cmake-build-debug/Homework4/CMakeFiles/edit_cache.dir
+G:/Clion/DX_Homework/cmake-build-debug/Homework5/CMakeFiles/Homework5.dir
+G:/Clion/DX_Homework/cmake-build-debug/Homework5/CMakeFiles/edit_cache.dir
+G:/Clion/DX_Homework/cmake-build-debug/Homework5/CMakeFiles/rebuild_cache.dir

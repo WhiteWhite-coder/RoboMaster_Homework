@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Clion/DX_Homework/Homework5/Homework3.c
+stdio.h
+-
+stdlib.h
+-
+Homework3.h
+G:/Clion/DX_Homework/Homework5/Homework3.h
+
+G:/Clion/DX_Homework/Homework5/Homework3.h
+stdio.h
+-
+stdlib.h
+-
+
+G:/Clion/DX_Homework/Homework5/SqStack.h
+stdio.h
+-
+stdlib.h
+-
+
+G:/Clion/DX_Homework/Homework5/main.c
+stdio.h
+-
+stdlib.h
+-
+SqStack.h
+G:/Clion/DX_Homework/Homework5/SqStack.h
+Homework3.h
+G:/Clion/DX_Homework/Homework5/Homework3.h
+

@@ -5,7 +5,7 @@
 		<Option title="DX_Homework"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Homework4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Homework4\;CMake Files\Homework5\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="G:/Clion/DX_Homework/cmake-build-debug"/>
@@ -109,6 +109,42 @@
 					<DistClean command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Homework5">
+				<Option output="G:/Clion/DX_Homework/cmake-build-debug/Homework5/Homework5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Clion/DX_Homework/cmake-build-debug/Homework5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="h:\developer\jetbrains\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="h:\developer\jetbrains\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="h:\developer\jetbrains\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 Homework5"/>
+					<CompileFile command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Homework5/fast">
+				<Option output="G:/Clion/DX_Homework/cmake-build-debug/Homework5/Homework5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Clion/DX_Homework/cmake-build-debug/Homework5"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="h:\developer\jetbrains\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="h:\developer\jetbrains\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="h:\developer\jetbrains\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 Homework5/fast"/>
+					<CompileFile command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/Developer/JetBrains/MinGW/bin/mingw32-make.exe -f &quot;G:/Clion/DX_Homework/cmake-build-debug/Homework5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="G:/Clion/DX_Homework/Homework4/SqStack.c">
 			<Option target="Homework4"/>
@@ -119,6 +155,21 @@
 		<Unit filename="G:/Clion/DX_Homework/Homework4/main.c">
 			<Option target="Homework4"/>
 		</Unit>
+		<Unit filename="G:/Clion/DX_Homework/Homework5/Homework3.c">
+			<Option target="Homework5"/>
+		</Unit>
+		<Unit filename="G:/Clion/DX_Homework/Homework5/Homework3.h">
+			<Option target="Homework5"/>
+		</Unit>
+		<Unit filename="G:/Clion/DX_Homework/Homework5/SqStack.c">
+			<Option target="Homework5"/>
+		</Unit>
+		<Unit filename="G:/Clion/DX_Homework/Homework5/SqStack.h">
+			<Option target="Homework5"/>
+		</Unit>
+		<Unit filename="G:/Clion/DX_Homework/Homework5/main.c">
+			<Option target="Homework5"/>
+		</Unit>
 		<Unit filename="G:/Clion/DX_Homework/main.c">
 			<Option target="DX_Homework"/>
 		</Unit>
@@ -127,6 +178,9 @@
 		</Unit>
 		<Unit filename="G:/Clion/DX_Homework/Homework4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Homework4\"/>
+		</Unit>
+		<Unit filename="G:/Clion/DX_Homework/Homework5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Homework5\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

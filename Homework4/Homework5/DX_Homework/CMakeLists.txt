@@ -7,4 +7,4 @@ add_executable(DX_Homework main.c)
 
 # 引入子目录
 ADD_SUBDIRECTORY(Homework4)
-# ADD_SUBDIRECTORY(Homework5)
+ADD_SUBDIRECTORY(Homework5)

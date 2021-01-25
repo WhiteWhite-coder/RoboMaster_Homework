@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../Homework4/CMakeLists.txt"
+  "../Homework5/CMakeLists.txt"
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
@@ -46,10 +47,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Homework4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Homework5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DX_Homework.dir/DependInfo.cmake"
   "Homework4/CMakeFiles/Homework4.dir/DependInfo.cmake"
+  "Homework5/CMakeFiles/Homework5.dir/DependInfo.cmake"
   )

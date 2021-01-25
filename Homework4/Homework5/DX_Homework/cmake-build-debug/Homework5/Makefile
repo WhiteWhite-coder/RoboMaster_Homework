@@ -99,14 +99,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Clion\DX_Homework\cmake-build-debug\CMakeFiles G:\Clion\DX_Homework\cmake-build-debug\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start G:\Clion\DX_Homework\cmake-build-debug\CMakeFiles G:\Clion\DX_Homework\cmake-build-debug\Homework5\CMakeFiles\progress.marks
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework5/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\Clion\DX_Homework\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework5/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,44 +116,87 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework5/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework5/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named DX_Homework
+# Convenience name for target.
+Homework5/CMakeFiles/Homework5.dir/rule:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework5/CMakeFiles/Homework5.dir/rule
+.PHONY : Homework5/CMakeFiles/Homework5.dir/rule
 
-# Build rule for target.
-DX_Homework: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DX_Homework
-.PHONY : DX_Homework
+# Convenience name for target.
+Homework5: Homework5/CMakeFiles/Homework5.dir/rule
 
-# fast build rule for target.
-DX_Homework/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DX_Homework.dir\build.make CMakeFiles/DX_Homework.dir/build
-.PHONY : DX_Homework/fast
-
-#=============================================================================
-# Target rules for targets named Homework4
-
-# Build rule for target.
-Homework4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Homework4
-.PHONY : Homework4
+.PHONY : Homework5
 
 # fast build rule for target.
-Homework4/fast:
-	$(MAKE) $(MAKESILENT) -f Homework4\CMakeFiles\Homework4.dir\build.make Homework4/CMakeFiles/Homework4.dir/build
-.PHONY : Homework4/fast
+Homework5/fast:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/build
+.PHONY : Homework5/fast
+
+Homework3.obj: Homework3.c.obj
+
+.PHONY : Homework3.obj
+
+# target to build an object file
+Homework3.c.obj:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/Homework3.c.obj
+.PHONY : Homework3.c.obj
+
+Homework3.i: Homework3.c.i
+
+.PHONY : Homework3.i
+
+# target to preprocess a source file
+Homework3.c.i:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/Homework3.c.i
+.PHONY : Homework3.c.i
+
+Homework3.s: Homework3.c.s
+
+.PHONY : Homework3.s
+
+# target to generate assembly for a file
+Homework3.c.s:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/Homework3.c.s
+.PHONY : Homework3.c.s
+
+SqStack.obj: SqStack.c.obj
+
+.PHONY : SqStack.obj
+
+# target to build an object file
+SqStack.c.obj:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/SqStack.c.obj
+.PHONY : SqStack.c.obj
+
+SqStack.i: SqStack.c.i
+
+.PHONY : SqStack.i
+
+# target to preprocess a source file
+SqStack.c.i:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/SqStack.c.i
+.PHONY : SqStack.c.i
+
+SqStack.s: SqStack.c.s
+
+.PHONY : SqStack.s
+
+# target to generate assembly for a file
+SqStack.c.s:
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/SqStack.c.s
+.PHONY : SqStack.c.s
 
 main.obj: main.c.obj
 
@@ -161,7 +204,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DX_Homework.dir\build.make CMakeFiles/DX_Homework.dir/main.c.obj
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -170,7 +213,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DX_Homework.dir\build.make CMakeFiles/DX_Homework.dir/main.c.i
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -179,7 +222,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DX_Homework.dir\build.make CMakeFiles/DX_Homework.dir/main.c.s
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Homework5\CMakeFiles\Homework5.dir\build.make Homework5/CMakeFiles/Homework5.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -190,8 +233,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DX_Homework
-	@echo ... Homework4
+	@echo ... Homework5
+	@echo ... Homework3.obj
+	@echo ... Homework3.i
+	@echo ... Homework3.s
+	@echo ... SqStack.obj
+	@echo ... SqStack.i
+	@echo ... SqStack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -206,6 +254,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d G:\Clion\DX_Homework\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
