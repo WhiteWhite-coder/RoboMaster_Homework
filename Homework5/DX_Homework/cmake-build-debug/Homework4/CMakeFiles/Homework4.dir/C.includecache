@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/Clion/DX_Homework/Homework4/SqStack.h
+stdio.h
+-
+stdlib.h
+-
+
+G:/Clion/DX_Homework/Homework4/main.c
+stdio.h
+-
+stdlib.h
+-
+SqStack.h
+G:/Clion/DX_Homework/Homework4/SqStack.h
+
